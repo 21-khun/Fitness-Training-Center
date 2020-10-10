@@ -1,0 +1,476 @@
+   * {
+       padding: 0;
+       margin: 0;
+       text-decoration: none;
+       list-style-type: none;
+       box-sizing: border-box;
+   }
+   /* style for index.html */
+   
+   #indexBody {
+       background-image: url(img/h1_hero.png);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: fixed;
+   }
+   /* navbar start */
+   
+   nav {
+       width: 100%;
+       height: 80px;
+       background-color: rgba(50, 40, 60, 0.2);
+       position: fixed;
+       top: 0;
+       left: 0;
+       z-index: 1;
+   }
+   
+   nav .logo {
+       color: white;
+       font-size: 35px;
+       line-height: 80px;
+       padding: 0 70px;
+       font-weight: bold;
+   }
+   
+   nav ul {
+       float: right;
+       margin-left: 20px;
+   }
+   
+   nav ul li {
+       display: inline-block;
+       line-height: 80px;
+       margin: 0 20px;
+   }
+   
+   nav ul li a {
+       font-size: 17px;
+       color: white;
+       margin-left: 10px;
+       font-weight: bold;
+       text-transform: uppercase;
+   }
+   
+   nav ul li a:hover {
+       color: red;
+   }
+   /* navbar end */
+   /* first layer start */
+   
+   .firstDiv {
+       margin-left: 100px;
+       margin-top: 200px;
+       width: 600px;
+       height: 100px;
+       color: white;
+       /* border: 1px solid red; */
+   }
+   
+   #member {
+       width: 150px;
+       height: 70px;
+       border: 1px solid red;
+       background-color: red;
+       color: white;
+       font-size: 0.8em;
+       text-transform: uppercase;
+       margin-top: 20px;
+   }
+   
+   #programs {
+       padding-top: 100px;
+       margin-top: 400px;
+       width: 100%;
+       height: 900px;
+       border: 1px solid black;
+       background: rgb(41, 40, 40);
+   }
+   
+   #programs button {
+       width: 100px;
+       height: 40px;
+       text-align: center;
+       margin: 20px 0px 0px 50px;
+       background-color: red;
+       color: white;
+       border: 1px solid black;
+   }
+   
+   #programs button:hover {
+       background-color: black;
+   }
+   /* first layer end */
+   /* second layer choose program start */
+   
+   .twoside {
+       margin: 0 auto;
+       width: 1200px;
+       height: 600px;
+       display: flex;
+       justify-content: space-between;
+       margin-top: 40px;
+       /* border: 1px solid red; */
+   }
+   
+   .column1 {
+       width: 550px;
+       /* border: 1px solid red; */
+   }
+   
+   .column2 {
+       width: 550px;
+       /* border: 1px solid red; */
+   }
+   
+   #columns {
+       margin-top: 40px;
+   }
+   
+   p {
+       text-align: justify;
+   }
+   
+   .twoside p {
+       color: gray;
+   }
+   /* second layer choose program end */
+   /* third layer Training classes  start */
+   
+   .classes {
+       width: 100%;
+       height: 850px;
+       background-color: white;
+       padding-top: 100px;
+   }
+   
+   .twocolumn {
+       margin: 0 auto;
+       width: 1200px;
+       height: 500px;
+       display: flex;
+       justify-content: space-between;
+       margin-top: 50px;
+       /* border: 1px solid red; */
+   }
+   
+   .firstcolumn ul li {
+       text-align: center;
+       line-height: 80px;
+       width: 300px;
+       height: 80px;
+       margin-top: 20px;
+       font-weight: bold;
+       font-size: large;
+       border: 1px solid black;
+       /* border: 1px solid red; */
+   }
+   
+   .firstcolumn ul li a {
+       color: black;
+       display: block;
+   }
+   
+   .firstcolumn ul li a:hover {
+       color: red;
+   }
+   
+   .secondcolumn {
+       width: 700px;
+       /* border: 1px solid red; */
+   }
+   /* third layer Training classes  end */
+   /* footer start  */
+   
+   .footer {
+       width: 100%;
+       height: 100px;
+       background-color: rgb(41, 40, 40);
+       /* border: 1px solid red; */
+   }
+   
+   .footer p {
+       text-align: center;
+       line-height: 100px;
+   }
+   /* footer end */
+   /* style for about.html */
+   
+   #aboutBody {
+       background: black;
+       background-attachment: fixed;
+       background-size: cover;
+   }
+   
+   #aboutUs {
+       width: 100%;
+       height: 400px;
+       text-align: center;
+       line-height: 400px;
+       margin-top: 50px;
+       /* border: 1px solid red; */
+       text-transform: capitalize;
+       font-size: 1.5em;
+       font-weight: bold;
+   }
+   /* aboout our gym start */
+   
+   .aboutGym {
+       width: 100%;
+       height: 800px;
+       background-color: white;
+       display: flex;
+       justify-content: space-between;
+       /* border: 1px solid red; */
+   }
+   
+   #imageSide {
+       width: 600px;
+       height: 500px;
+       /* border: 1px solid red; */
+       margin: 200px 20px 0px 100px;
+   }
+   
+   #purposeSide {
+       width: 600px;
+       height: 600px;
+       /* border: 1px solid red; */
+       margin: 150px 100px 0px 20px;
+   }
+   /* aboout our gym end */
+   /* out team style start */
+   
+   .team {
+       width: 100%;
+       height: 900px;
+       background-color: white;
+   }
+   
+   .trainers {
+       width: 100%;
+       margin-top: 100px;
+       /* border: 1px solid red; */
+       height: 600px;
+       display: flex;
+       /* justify-content: space-between; */
+   }
+   
+   #firstTrainer {
+       margin-left: 110px;
+       width: 380px;
+       height: 600px;
+       /* border: 1px solid red; */
+   }
+   
+   #secondTrainer {
+       margin-left: 40px;
+       width: 380px;
+       height: 600px;
+       /* border: 1px solid red; */
+   }
+   
+   #thirdTrainer {
+       margin-left: 40px;
+       width: 380px;
+       height: 600px;
+       /* border: 1px solid red; */
+   }
+   /* our team style end */
+   /* discount and special offers start */
+   
+   .discount {
+       width: 100%;
+       height: 280px;
+       background-color: #022F55;
+   }
+   /* style for about.html  end*/
+   /* style for  schedule.html start */
+   
+   .scheduleBody {
+       background-image: url(img/section_bg01.png);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: fixed;
+   }
+   
+   .schedule {
+       width: 100%;
+       height: 700px;
+   }
+   
+   #day {
+       width: 100%;
+       height: 40px;
+       margin-top: 180px;
+       /* border: 1px solid red; */
+   }
+   
+   #day ul li {
+       display: inline-block;
+       line-height: 40px;
+       width: 100px;
+       height: 40px;
+       border: 1px solid orange;
+   }
+   
+   #day ul li a {
+       color: white;
+       display: block;
+   }
+   
+   #day ul li a:hover {
+       color: red;
+   }
+   
+   .tablediv {
+       width: 100%;
+       height: 450px;
+       /* border: 1px solid red; */
+       margin-top: 20px;
+   }
+   
+   table {
+       margin: 0 auto;
+       margin-top: 40px;
+   }
+   
+   tr {
+       height: 80px;
+   }
+   
+   td {
+       width: 200px;
+       text-align: center;
+       color: white;
+   }
+   
+   .gallery {
+       margin: 0 auto;
+       width: 100%;
+       height: 1000px;
+       background-color: white;
+       /* border: 3px solid red; */
+       display: flex;
+   }
+   
+   #firstImg {
+       margin-top: 100px;
+       width: 600px;
+       height: 800px;
+       /* border: 1px solid red; */
+   }
+   
+   #firstImg :hover {
+       box-shadow: 10px 10px 10px gray;
+       border: 2px solid black;
+   }
+   
+   #secondImg {
+       margin-top: 100px;
+       width: 900px;
+       height: 880px;
+       /* border: 1px solid red; */
+   }
+   
+   #secondImg img {
+       margin: 20px 20px 20px 50px;
+   }
+   
+   #secondImg img:hover {
+       box-shadow: 10px 10px 10px gray;
+       border: 2px solid black;
+   }
+   /* style for  schedule.html end */
+   /* style for contact.html start */
+   
+   .contactBody {
+       background-color: black;
+       background-repeat: no-repeat;
+       background-size: cover;
+   }
+   
+   .contact {
+       width: 100%;
+       height: 400px;
+       margin-top: 200px;
+       display: flex;
+       justify-content: space-between;
+       /* border: 1px solid red; */
+   }
+   
+   #locationSide {
+       margin-left: 100px;
+       width: 600px;
+       height: 400px;
+       font-size: large;
+       /* border: 1px solid red; */
+   }
+   
+   #locimgSide {
+       margin-right: 100px;
+       width: 600px;
+       height: 400px;
+       /* border: 1px solid red; */
+   }
+   
+   .formDiv {
+       margin-top: 50px;
+       width: 100%;
+       height: 600px;
+       /* border: 1px solid red; */
+       background-color: white;
+   }
+   
+   .formDiv table td {
+       color: black;
+       /* border: 1px solid red; */
+   }
+   
+   #inputbtn {
+       width: 600px;
+       height: 40px;
+       margin-top: 10px;
+   }
+   
+   address {
+       color: white;
+   }
+   /* style for contact.html end */
+   /* style for register start */
+   
+   .registerBody {
+       background-color: black;
+       background-size: cover;
+       background-attachment: fixed;
+   }
+   
+   #regDiv {
+       width: 100%;
+       height: 800px;
+       background-color: white;
+       display: flex;
+   }
+   
+   #regImg {
+       margin: 50px 0px 0px 50px;
+       width: 550px;
+       height: 600px;
+   }
+   
+   #newMember {
+       width: 100%;
+       height: 400px;
+       /* border: 1px solid red; */
+   }
+   
+   #personal {
+       margin: 50px 0px 50px 0px;
+       width: 800px;
+       height: 700px;
+   }
+   
+   #regForm table td {
+       color: black;
+       font-size: large;
+       /* border: 1px solid red; */
+   }
